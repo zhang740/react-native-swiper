@@ -174,6 +174,7 @@ module.exports = React.createClass({
 
   componentWillReceiveProps(props) {
     this.setState(this.initState(props))
+    this.autoplay()
   },
 
   componentDidMount() {
